@@ -1,6 +1,6 @@
 ## Installation
 
-Use the package manager npm 
+Use the package manager npm :
 
 cd react_todo_app
 ```bash
