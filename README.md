@@ -2,7 +2,7 @@
 
 Use the package:
 
-cd react_todo_app
+*cd react_todo_app*
 ```bash
 npm i express
 ```
