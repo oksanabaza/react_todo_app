@@ -11,5 +11,18 @@ cd client
 npm i
 ```
 
+## start concurrently
+```bash
+npm run dev
+```
+## start client
+```bash
+npm run start
+```
+## start server
+```bash
+npm run server
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
