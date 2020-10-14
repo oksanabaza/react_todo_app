@@ -36,7 +36,16 @@ router.delete('/:id', (req, res) => {
     .then(item => item.remove().then(() => res.json({ success: true })))
     .catch(err => res.status(404).json({ success: false }));
 });
+//@route PUT api/items/:id
+//@desc Put an item
+//@access Public
+router.put('/:id', (req, res) => {
 
-
+  Item.findById(req.params.id)
+    .then(item => {
+      item.update().then(() => res.json({ success: true }))
+        .catch(err => res.status(404).json({ success: false }))
+    })
+})
 
 module.exports = router;

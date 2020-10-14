@@ -1,24 +1,16 @@
 ## Installation
 
-Use the package:
+Use the package manager npm :
 
-cd react_todo_app
-```bash
-npm i express
-```
 cd react_todo_app
 ```bash
 npm init
 ```
 cd client
 ```bash
-npm install
+npm i
 ```
 -------------------------
-start concurrently 
-```bash
-npm run dev
-```
 start client
 ```bash
 npm run start

@@ -88,7 +88,8 @@ const TodoList = (props) => {
 const mapStateToProps = (state) => ({
   items: state.item.items,
   display: state.item.display,
-  loading: state.item.loading
+  loading: state.item.loading,
+  // important: state.item.items.important
 });
 
 

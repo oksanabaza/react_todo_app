@@ -23,7 +23,16 @@ export const addItem = item => dispatch => {
       })
     )
 };
-
+// export const toggleImp = item => dispatch => {
+//   axios
+//     .post('/api/items', item)
+//     .then(res =>
+//       dispatch({
+//         type: TOGGLE_IMP,
+//         payload: res.data
+//       })
+//     )
+// };
 
 export const deleteItem = id => dispatch => {
   axios.delete(`/api/items/${id}`).then(res =>
